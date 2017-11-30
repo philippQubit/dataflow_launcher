@@ -10,9 +10,9 @@ from dataflowlauncher.parsers.cli_parsers.util_cli_parser import UtilCliParser
 CLI_PARSER_ITERABLE = (
     RequiredCliParser,
     PomCliParser,
-    PubsubCliParser,
     UtilCliParser,
-    OverrideArgumentsParser # This needs to be invoked last to ensure expected behaviour of parameter overrides
+    OverrideArgumentsParser, # This needs to be invoked last to ensure expected behaviour of parameter overrides
+    PubsubCliParser
 )
 
 
